@@ -81,7 +81,7 @@ If you do not require these client libraries (because you are storing session da
 You can exclude them by using `webapp-runner-main`:
 
 ```xml
-<groupId>com.heroku</groupId>
+<groupId>com.codedx</groupId>
 <artifactId>webapp-runner-main</artifactId>
 ```
 
@@ -134,7 +134,7 @@ Add the following dependency to your pom.xml:
 
 ```xml
 <dependency>
-  <groupId>com.heroku</groupId>
+  <groupId>com.codedx</groupId>
   <artifactId>webapp-runner</artifactId>
   <version>${webapp-runner.version</version>
   <scope>provided</scope>
@@ -285,7 +285,7 @@ If you do not require these dependencies, you can alternative use the
 
 ```xml
 <dependency>
-  <groupId>com.heroku</groupId>
+  <groupId>com.codedx</groupId>
   <artifactId>webapp-runner-main</artifactId>
   <version>${webapp-runner.version</version>
 </dependency>
